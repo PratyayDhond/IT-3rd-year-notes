@@ -17,10 +17,10 @@ void triangle(){
     cin>>h;
     cout<<"Enter base of triangle (1-200) : ";
     cin>>b;
-    if (h > 200 || h < 1 && b > 200 || b < 1)
+    if (h > 200 || h < 1 || b > 200 || b < 1)
         cout << "Invalid Input";
     else
-        cout << "Area of circle with height " << h <<  "and base " << b << " = " << 0.5*b*h;
+        cout << "Area of circle with height " << h <<  " and base " << b << " = " << 0.5*b*h;
 }
 
 void square(){
@@ -40,7 +40,7 @@ void rectangle(){
     cout<<"Enter breadth of rectangle (1-200) : ";
     cin>>b;
 
-    if (l > 200 || l < 1 && b > 200 || b < 1)
+    if (l > 200 || l < 1 || b > 200 || b < 1)
         cout << "Invalid Input";
     else
         cout << "Area of rectangle with length " << l << " and breadth " << b << " = " << l * b;
