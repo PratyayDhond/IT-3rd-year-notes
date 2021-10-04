@@ -3,8 +3,6 @@ using namespace std;
 
 int main(){
 
-	do{
-		
 	 int a,b,c,d;
 	cout << "The equation is a(x^2)+b(x)+c = 0 \n";
 	cout << "Enter value of a : ";
@@ -30,7 +28,6 @@ int main(){
 		system("pause");
 	}	
 	system("cls");	
-	}while(1);
 
 	return 0;
 }
