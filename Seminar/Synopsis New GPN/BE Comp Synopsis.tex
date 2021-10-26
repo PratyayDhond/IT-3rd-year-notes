@@ -1,0 +1,246 @@
+\documentclass[11pt,a4paper,oneside,openright]{report}
+%\documentclass[11pt,a4paper,openright]{report}
+\usepackage{anysize}
+\usepackage{vpcoestyle}   %% Thesis Title Page
+\usepackage{latexsym}
+%\usepackage{pictex}
+\usepackage{fancyvrb}
+\usepackage{fancybox}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{setspace}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{rawfonts}
+\usepackage{setspace}
+%\usepackage{newcent} %the options are:  palatino, times, newcent, bookman
+
+\marginsize{1.5in}{1in}{0.75in}{0.75in}
+
+\usepackage[pdftex,
+        colorlinks=true,
+        urlcolor=black,       % \href{...}{...} external (URL)
+        filecolor=black,     % \href{...} local file
+        linkcolor=black,       % \ref{...} and \pageref{...}
+	citecolor=black,
+        pdftitle={Seminar Synopsis},
+        pdfauthor={Pratyay Dhond},
+        pdfsubject={Seminar},
+        pdfkeywords={Flutter},
+%        pagebackref,
+%        pdfpagemode=true,
+        bookmarksopen=true]{hyperref}
+\pdfcompresslevel=9
+
+
+\thisfancypage{%
+  \setlength{\fboxsep}{14pt}\shadowbox}{}
+
+\title{Native Application Development using flutter}
+\author{Mast. Pratyay Dhond}
+\date{OCT 26, 2021}
+
+\begin{document}
+\def\what{SYNOPSIS}
+\def\title{Native Application Development using flutter}
+
+\def\degree{{\bf \large Diploma in Engineering\\(Information Technology)}}
+\def\first{\large  Mast. Pratyay Prasad Dhond }
+\def\one{\Large 1907011}
+
+\def\guide{\Large Dr. A R Mahajan}
+\def\coguide{Prof.XYZ }
+\pagenumbering{roman}
+
+%\ifpdf
+\pdfbookmark[1]{Title}{title} %%This is pdf specefic
+%\fi
+
+%--------------Title Page-------------
+\vpcoetitlepage
+\cleardoublepage
+\thispagestyle{empty}
+\thisfancypage{%
+  \setlength{\fboxsep}{14pt}\shadowbox}{}
+\begin{center} \label{chap:approval}
+{\bf \huge {Approval Sheet}} \\
+
+\vspace{0.8in}
+\end{center}
+\renewcommand{\baselinestretch}{1.5}
+\hspace{0.2in} \large {The synopsis entitled {\bf Native Application Development using Flutter} submitted by \par{\hspace{0.4in}{\bf Mast. Pratyay Prasad Dhond}. {\bf Roll No:1907011}\par{\hspace{0.4in}\\ is approved for the partial fulfilment of the requirement for the award of {\bf Diploma} in {\bf Information Technology}}\\
+
+\vspace{1.5in}
+\begin{multicols}{2}
+\begin {center}
+ {\bf Dr. A R Mahajan}\\ Guide\\%\\Department of Computer Engineering\\.\\
+ {\bf Prof.L.D.Vilhekar}\\Project Coordinator\\%\\Department of Computer Engineering\\.\\
+\end {center}
+\end{multicols}
+\vskip 0.6in
+\begin{center}
+\begin{multicols}{2}
+
+.\\{\bf Seal/Stamp}\\
+{\bf \large Dr. A.R.Mahajan}\\{\bf HOD}\\
+\end{multicols}
+\end{center}
+
+
+\newpage
+
+%
+
+%%---------------- A B S T R A C T -----------------
+\onehalfspacing
+\cleardoublepage
+\vspace*{2in}
+\section*{\begin{center} {\Huge{Abstract}}\end{center}}
+%\thispagestyle{empty}
+\addcontentsline{toc}{chapter}{\quad\,\,{Abstract}}
+
+ \hspace{0.2in}Flutter is a cross-platform User Interface development framework that is used to develop cross platform applications using a single code base. Flutter can be used to build beautiful, natively compiled application for various platforms such as Android, iOS, Windows, Mac, Linux, Web, etc. using a single codebase. 
+
+ \hspace{0.2in}The key features of the Flutter Framework are Fast Development using the Hot Reload, Expressive and Flexible User Interface(UI) and the Native Performance.
+
+\hspace{0.2in}Fast Development : 
+
+
+
+%-----------------Table of Contents-------------------
+%\renewcommand{\tableofcontents}{Table of Contents}
+\newpage
+%\ifpdf
+\pdfbookmark[1]{Table of Contents}{contents} %%This is pdf specefic
+%\fi
+\tableofcontents
+%\thispagestyle{empty}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\newpage
+
+\listoffigures
+%\thispagestyle{empty}
+\addcontentsline{toc}{chapter}{\quad\,\,{List of Figures}}
+\addtocontents{lof}{\protect\thispagestyle{empty}}
+%\newpage
+
+
+
+
+
+%----------------------- Chapter 1 ---------------------
+\chapter{Introduction}
+\label{chap:intro}
+\pagenumbering{arabic}
+
+\section{Introduction}
+\hspace{0.2in} A website is considered as a facelift of an organization or institute. It contributes in generating extra revenue and also grabbing attention of more people. Right from a good content, easy navigation till the best services, a well designed website can attract the potential users in many ways. Remember, it is not an easy task to design a website. It requires a good study, efforts and strategies to be made for all the web pages.
+\par{A website is a collection of Web pages, images, videos and other digital assets that is hosted on Web server, usually accessible via the Internet, cell phone or a LAN.
+The pages of websites can usually be accessed from a common root URL called the homepage, and usually reside on the same physical server. The URLs of the pages organize them into a hierarchy, although the hyperlinks between them control how the reader perceives the overall structure and how the traffic flows between the different parts of the sites.
+A website requires attractive design and proper arrangement of links and images, which enables a browser to easily interpret and access the properties of the site. Hence it provides the browser with adequate information and functionality about the organization, community, network etc.}
+
+\begin{itemize}
+
+\item {\bf What is a Website Design?}
+\end{itemize}
+\hspace{0.2in} Website is also considered as an important factor that promotes the organization or institute. People can use it as a best way to get in touch with the organization or institute that offers the services or facilities which they have been looking for. There are millions of people who explore different services or facilities with the help of internet. Many companies consider it as an opportunity to grab the potential users attentions and thus gain a good traffic for the site. The more traffic a website gets, the high are the chances for organization or institute to generate good revenue.
+
+\section{ACM Keywords}
+ \begin{enumerate}
+ \item IMC : Institute Management Committe
+ \item RTI : Right To Information
+ \end{enumerate}
+
+%\cleardoublepage
+
+\chapter{Problem Statement}\label{chap:project outline}
+
+\section{Problem Statement}
+ Industrial Training Institute Website Designing.
+\section{Solving Approach}
+The website is to be developed using ASP.Net as the Front End and SQL Server as the Back End.
+ C Sharp will be used for coding and ADO.Net providing the classes for database connectivity.
+
+\section{Outcomes}
+\hspace{0.2in} These are the different tags which will be included in the website :
+\begin{enumerate}
+\item Home :
+\begin{itemize}
+\item About Us
+\item IMC
+\item Placement
+\item Photo Gallery
+\item News
+\item RTI
+\item Contents
+\end{itemize}
+
+\item About Us :  \\
+It contains the information about the Institute such as its history, contact information.
+
+\item IMC :  \\
+\hspace{0.2in}IMC means Tnstitute Management Committe. It describes the Role And Responsibilities of IMC such as :
+\begin{itemize}
+\item Training of Faculty
+\item Development of Curriculum
+\item Appointment of Contract Faculty / Guest Faculty
+\item Selection of trainees
+\item Testing and certification.
+\end{itemize}
+
+\item Placement :\\
+\hspace{0.2in}It contain the placement information.
+
+\item Photo Gallery :\\
+\hspace{0.2in}It contain the photos of institute , different functions held by the institute, etc.
+
+
+\item News :\\
+\hspace{0.2in}It contains the information about the exams, scholarships and so on.
+
+\item RTI :\\
+\hspace{0.2in}RTI means Right To Information. It describes the information about the responsible officers for providing information.
+
+\item Contents :\\
+\hspace{0.2in}It contains the various contents of the website.
+
+\end{enumerate}
+
+
+
+
+
+\chapter{Plan of Dissertation execution}
+
+
+\chapter{References}
+\begin{enumerate}
+
+\item www.dvet.com\\
+{\em "This is an ideal website which includes all the information regarding the all Industrial Training Institutes."}
+
+\item http://www.indiastudychannel.com/colleges/38353-Industrial-Training-Institute-Aundh-Pune.aspx\\
+{\em "This is a website of Industrial Training Institute Aundh-Pune."}
+
+
+\item http://www.indiacom.com/yellow-pages/training-institutes/pune/?area=rajguru+nagar\\
+{\em "This is a website of Industrial Training Institute Rajguru Nagar-Pune."}
+
+\item http://itiambarnath.gov.in\\
+{\em "This is a website of Industrial Training Institute Ambarnath."}
+
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+\end{document}
+     

@@ -1,0 +1,12 @@
+\contentsline {chapter}{\hskip 1em\relax \,\,{Abstract}}{ii}{section*.1}%
+\thispagestyle {empty}
+\contentsline {chapter}{\hskip 1em\relax \,\,{List of Figures}}{iv}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}ACM Keywords}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Problem Statement}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Problem Statement}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Solving Approach}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Outcomes}{3}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Plan of Dissertation execution}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}References}{6}{chapter.4}%
