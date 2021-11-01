@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.5)  1 NOV 2021 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.5)  1 NOV 2021 19:25
 entering extended mode
 **"./BE Comp Synopsis.tex"
 (BE Comp Synopsis.tex
@@ -509,25 +509,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 11.74988pt
-(hyperref)                removed on input line 130.
+(hyperref)                removed on input line 134.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 130.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.95836pt
-(hyperref)                removed on input line 130.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 130.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 134.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.95836pt
-(hyperref)                removed on input line 130.
+(hyperref)                removed on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.95836pt
+(hyperref)                removed on input line 134.
 
 [4
 
@@ -538,51 +538,71 @@ Chapter 1.
 ]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--186
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--186
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--186
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
 
  []
 
 [2
 
-]
-<dash.png, id=98, 3174.86125pt x 1724.4425pt>
+] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
+
+ []
+
+<dash.png, id=104, 3174.86125pt x 1724.4425pt>
 File: dash.png Graphic file (type png)
 <use dash.png>
-Package pdftex.def Info: dash.png  used on input line 207.
+Package pdftex.def Info: dash.png  used on input line 214.
 (pdftex.def)             Requested size: 476.20865pt x 258.65521pt.
-<flutter.png, id=99, 259.97125pt x 194.7275pt>
+
+Overfull \hbox (86.75082pt too wide) in paragraph at lines 214--214
+ [] 
+ []
+
+<flutter.png, id=105, 259.97125pt x 194.7275pt>
 File: flutter.png Graphic file (type png)
 <use flutter.png>
-Package pdftex.def Info: flutter.png  used on input line 208.
+Package pdftex.def Info: flutter.png  used on input line 221.
 (pdftex.def)             Requested size: 207.97728pt x 155.7822pt.
-<dart.png, id=100, 1027.84pt x 1027.84pt>
+<dart.png, id=106, 1027.84pt x 1027.84pt>
 File: dart.png Graphic file (type png)
 <use dart.png>
-Package pdftex.def Info: dart.png  used on input line 209.
+Package pdftex.def Info: dart.png  used on input line 223.
 (pdftex.def)             Requested size: 143.89662pt x 143.89662pt.
-
-Overfull \hbox (86.75082pt too wide) in paragraph at lines 205--210
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--210
+[4 <./dash.png> <./flutter.png> <./dart.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
 
  []
 
-[3 <./dash.png>] [4 <./flutter.png> <./dart.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
+
+ []
+
+[5]
 Chapter 3.
-[5
+
+Overfull \hbox (60.00563pt too wide) in paragraph at lines 274--276
+[]\OT1/cmr/m/n/12 https://www.youtube.com/playlist?list=PLOU2XLYxmsIJ7dsVN4iRuA
+7BT8XHzGtCr 
+ []
+
+[6
 
 ] (BE Comp Synopsis.aux)
 Package rerunfilecheck Info: File `"BE Comp Synopsis".out' has not changed.
@@ -594,8 +614,8 @@ Package rerunfilecheck Info: File `"BE Comp Synopsis".out' has not changed.
 ### simple group (level 1) entered at line 74 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9749 strings out of 478927
- 145363 string characters out of 2852535
+ 9752 strings out of 478927
+ 145383 string characters out of 2852535
  444697 words of memory out of 3000000
  27397 multiletter control sequences out of 15000+600000
  421637 words of font info for 97 fonts, out of 8000000 for 9000
@@ -607,9 +627,9 @@ ec/dpi600\tcrm1200.pk><C:/Users/dhond/AppData/Local/Programs/MiKTeX/fonts/type1
 nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dhond/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/dhond/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "BE Comp Synopsis.pdf" (10 pages, 1529518 bytes).
+Output written on "BE Comp Synopsis.pdf" (11 pages, 1533131 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
