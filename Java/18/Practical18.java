@@ -19,8 +19,6 @@ class Practical18{
             while((temp = reader.read()) != -1){
                 v1.add(temp);
             }
-                   	System.out.println("XD");
-
             reader.close();
             reader = new FileReader(input2);
             while((temp = reader.read()) != -1){
@@ -59,9 +57,11 @@ class Practical18{
         for( int i=0; i<product.size(); ++i) {
             writer.write(product.elementAt(i)+" ");
         }
+        writer.close();
+        System.out.println("Success... Data copied to file successfully");
     }
-    catch (IOException ioEx) {
-        ioEx.printStackTrace();
+    catch (Exception e ) {
+        System.out.println(e);
     }
 
     }
