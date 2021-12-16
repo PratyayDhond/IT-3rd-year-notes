@@ -1,0 +1,100 @@
+\documentclass[12pt,a4wide]{report}
+\usepackage{multicol}
+\usepackage{amsthm,amssymb,mathrsfs,setspace,pstricks,booktabs,mathtools,amsmath}
+%latexsym,footmisc
+
+\usepackage{play}
+\usepackage{epsfig}
+%\usepackage[grey,times]{quotchap}
+\usepackage[nottoc]{tocbibind}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+%
+
+\input xy
+\xyoption{all}
+
+\setlength{\parskip}{1em plus 0.25em minus 0.25em}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{notation}[theorem]{Notation}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\renewcommand{\baselinestretch}{1.5}
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\jacobian}{\mathcal{J}}
+\newcommand{\tallstrut}{\vphantom{\frac{5_A}{4,10^3}}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+
+\begin{document}
+
+\input{00_Intro Pages/01_Title}
+\input{00_Intro Pages/02_Declaration}
+\input{00_Intro Pages/03_Certificate}
+\input{00_Intro Pages/04_Abstract}
+\input{00_Intro Pages/05_Toc,LoF,LoT}
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% =========== Main chapters starts here. Type in seperate files and include the filename here. ==
+% ============================
+
+\input{Chapters/chapter1}
+
+\input{Chapters/chapter2}
+
+\input{Chapters/chapter3}
+
+\input{Chapters/chapter4}
+
+\input{Chapters/chapter5}
+
+\input{Chapters/chapter6}
+
+
+
+
+
+\nocite{*}
+\bibliographystyle{plain}
+
+
+\chapter{References}
+\begin{enumerate}
+
+\item https://flutter.dev/\\
+{\em "This is the official website of Flutter."}
+
+\item https://pub.dev/\\
+{\em "This is a website where developers can access various open source dependencies and implement them in their project."}
+
+\item https://dart.dev/\\
+{\em "This is the official website for Dart programming language."}
+
+\item Practical Flutter - Frank Zammetti\\
+{\em "This is a great book for anyone who wants to learn to code using flutter framework and build cross platform apps."}
+
+\item https://www.youtube.com/playlist?list=PLOU2XLYxmsIJ7dsVN4iRuA7BT8XHzGtCr\\
+{\em "This is a link to a flutter playlist on youtube made by people working on flutter at google themselves."}
+
+\item https://www.reddit.com/r/FlutterDev/\\
+{\em "Flutter forum on reddit contains various doubts, release notes , bugs, bug fixes, etc."}
+
+\item https://discord.com/invite/N7Yshp4\\
+{\em "Flutter community on discord is a great place to chat with other flutter developers, post your doubts, solve other people's doubts and to grow better as a developer."}
+
+\end{enumerate}
+
+\end{document}
+
