@@ -1,0 +1,19 @@
+
+	\chapter{Flutter Provider Widget}
+
+
+
+
+\section{What is Flutter Provider?}
+The provider package is an easy to use package which is basically a wrapper around the InheritedWidgets that makes it easier to use and manage. It provides a state management technique that is used for managing a piece of data around the app.\\
+
+
+\section{basic classes that are provided with flutter provider}
+The basic classes available in the provider package are –\\
+ChangeNotifierProvider<T extends ChangeNotifier> It listens to a ChangeNotifier extended by the model class, exposes it to its children and descendants, and rebuilds depends whenever notifyListeners is called.\\
+Consumer - It obtains the provider from its ancestors and passes the value obtained to the builder.\\
+FutureProvider - This class listens for a Future and then passes its values to its children and descendants.\\
+InheritedProvider - The InheritedProvider provides a general implementation of the InheritedWidget.\\
+MultiProvider A provider that is used to provide more than one class at the same time.\\
+Provider -  It is the basic provider.\\
+ProxyProvider - This provider depends on other providers for value. The value can be used by create or update.\\
