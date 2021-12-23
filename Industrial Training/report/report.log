@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.1)  23 DEC 2021 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.1)  23 DEC 2021 10:10
 entering extended mode
 **./report.tex
 (report.tex
@@ -772,22 +772,22 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 [4
 
 
-])
+] [5])
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
- [5] (report.lof)
+ [6] (report.lof [7
+
+
+])
 \tf@lof=\write5
 \openout5 = `report.lof'.
 
- [6
-
-
-] (report.lot)
+ [8] (report.lot)
 \tf@lot=\write6
 \openout6 = `report.lot'.
 
- [7
+ [9
 
 ]) (Chapters/chapter1.tex
 Chapter 1.
@@ -800,7 +800,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
-<Images & Logos/CH02_dart.png, id=41, 3011.25pt x 2007.5pt>
+<Images & Logos/CH02_dart.png, id=48, 3011.25pt x 2007.5pt>
 File: Images & Logos/CH02_dart.png Graphic file (type png)
 <use Images & Logos/CH02_dart.png>
 Package pdftex.def Info: Images & Logos/CH02_dart.png  used on input line 9.
@@ -826,7 +826,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-<Images & Logos/CH_03_firebase.png, id=51, 331.2375pt x 93.34875pt>
+<Images & Logos/CH_03_firebase.png, id=57, 331.2375pt x 93.34875pt>
 File: Images & Logos/CH_03_firebase.png Graphic file (type png)
 <use Images & Logos/CH_03_firebase.png>
 Package pdftex.def Info: Images & Logos/CH_03_firebase.png  used on input line 
@@ -842,7 +842,7 @@ Overfull \hbox (6.22995pt too wide) in paragraph at lines 17--18
 
 ) (Chapters/chapter4.tex [7]
 Chapter 4.
-<Images & Logos/CH_02_architecture.jpg, id=59, 463.7325pt x 272.217pt>
+<Images & Logos/CH_02_architecture.jpg, id=65, 463.7325pt x 272.217pt>
 File: Images & Logos/CH_02_architecture.jpg Graphic file (type jpg)
 <use Images & Logos/CH_02_architecture.jpg>
 Package pdftex.def Info: Images & Logos/CH_02_architecture.jpg  used on input l
@@ -891,7 +891,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--26
 [11
 
 ]
-<Images & Logos/CH_03_STATELESS.png, id=73, 468.5505pt x 175.857pt>
+<Images & Logos/CH_03_STATELESS.png, id=79, 468.5505pt x 175.857pt>
 File: Images & Logos/CH_03_STATELESS.png Graphic file (type png)
 <use Images & Logos/CH_03_STATELESS.png>
 Package pdftex.def Info: Images & Logos/CH_03_STATELESS.png  used on input line
@@ -913,7 +913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
  []
 
 [13 <./Images & Logos/CH_03_STATELESS.png>]
-<Images & Logos/CH_03_STATEFUL.png, id=80, 478.78876pt x 175.857pt>
+<Images & Logos/CH_03_STATEFUL.png, id=86, 478.78876pt x 175.857pt>
 File: Images & Logos/CH_03_STATEFUL.png Graphic file (type png)
 <use Images & Logos/CH_03_STATEFUL.png>
 Package pdftex.def Info: Images & Logos/CH_03_STATEFUL.png  used on input line 
@@ -936,7 +936,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<Images & Logos/CH_04_Widget_Tree.png, id=84, 478.1865pt x 510.708pt>
+<Images & Logos/CH_04_Widget_Tree.png, id=90, 478.1865pt x 510.708pt>
 File: Images & Logos/CH_04_Widget_Tree.png Graphic file (type png)
 <use Images & Logos/CH_04_Widget_Tree.png>
 Package pdftex.def Info: Images & Logos/CH_04_Widget_Tree.png  used on input li
@@ -974,7 +974,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 [19
 
 ]
-<Images & Logos/CH_08_FirebaseAuth.png, id=102, 402.50375pt x 302.12875pt>
+<Images & Logos/CH_08_FirebaseAuth.png, id=108, 402.50375pt x 302.12875pt>
 File: Images & Logos/CH_08_FirebaseAuth.png Graphic file (type png)
 <use Images & Logos/CH_08_FirebaseAuth.png>
 Package pdftex.def Info: Images & Logos/CH_08_FirebaseAuth.png  used on input l
@@ -993,25 +993,25 @@ Overfull \hbox (0.41145pt too wide) in paragraph at lines 27--28
  []
 
 [21]
-<Images & Logos/theme/CH_08_Light_1.png, id=110, 1762.585pt x 2991.175pt>
+<Images & Logos/theme/CH_08_Light_1.png, id=117, 1762.585pt x 2991.175pt>
 File: Images & Logos/theme/CH_08_Light_1.png Graphic file (type png)
 <use Images & Logos/theme/CH_08_Light_1.png>
 Package pdftex.def Info: Images & Logos/theme/CH_08_Light_1.png  used on input 
 line 57.
 (pdftex.def)             Requested size: 150.88008pt x 256.0748pt.
-<Images & Logos/theme/CH_08_Light_2.png, id=111, 1762.585pt x 2991.175pt>
+<Images & Logos/theme/CH_08_Light_2.png, id=118, 1762.585pt x 2991.175pt>
 File: Images & Logos/theme/CH_08_Light_2.png Graphic file (type png)
 <use Images & Logos/theme/CH_08_Light_2.png>
 Package pdftex.def Info: Images & Logos/theme/CH_08_Light_2.png  used on input 
 line 62.
 (pdftex.def)             Requested size: 150.88008pt x 256.0748pt.
-<Images & Logos/theme/CH_08_Light_3.png, id=112, 1762.585pt x 2991.175pt>
+<Images & Logos/theme/CH_08_Light_3.png, id=119, 1762.585pt x 2991.175pt>
 File: Images & Logos/theme/CH_08_Light_3.png Graphic file (type png)
 <use Images & Logos/theme/CH_08_Light_3.png>
 Package pdftex.def Info: Images & Logos/theme/CH_08_Light_3.png  used on input 
 line 69.
 (pdftex.def)             Requested size: 150.88008pt x 256.0748pt.
-<Images & Logos/theme/CH_08_Light_4.png, id=113, 1762.585pt x 2991.175pt>
+<Images & Logos/theme/CH_08_Light_4.png, id=120, 1762.585pt x 2991.175pt>
 File: Images & Logos/theme/CH_08_Light_4.png Graphic file (type png)
 <use Images & Logos/theme/CH_08_Light_4.png>
 Package pdftex.def Info: Images & Logos/theme/CH_08_Light_4.png  used on input 
@@ -1021,7 +1021,7 @@ line 74.
 
 LaTeX Warning: Float too large for page by 12.9296pt on input line 78.
 
-<Images & Logos/theme/CH_08_Light_5.png, id=114, 1762.585pt x 2991.175pt>
+<Images & Logos/theme/CH_08_Light_5.png, id=121, 1762.585pt x 2991.175pt>
 File: Images & Logos/theme/CH_08_Light_5.png Graphic file (type png)
 <use Images & Logos/theme/CH_08_Light_5.png>
 Package pdftex.def Info: Images & Logos/theme/CH_08_Light_5.png  used on input 
@@ -1038,25 +1038,25 @@ Overfull \hbox (22.0178pt too wide) in paragraph at lines 91--92
 ex-code: #1A1A1A) 
  []
 
-<Images & Logos/theme/CH_08_Dark_1.png, id=126, 1762.585pt x 2991.175pt>
+<Images & Logos/theme/CH_08_Dark_1.png, id=132, 1762.585pt x 2991.175pt>
 File: Images & Logos/theme/CH_08_Dark_1.png Graphic file (type png)
 <use Images & Logos/theme/CH_08_Dark_1.png>
 Package pdftex.def Info: Images & Logos/theme/CH_08_Dark_1.png  used on input l
 ine 102.
 (pdftex.def)             Requested size: 150.88008pt x 256.0748pt.
-<Images & Logos/theme/CH_08_Dark_2.png, id=127, 1762.585pt x 2991.175pt>
+<Images & Logos/theme/CH_08_Dark_2.png, id=133, 1762.585pt x 2991.175pt>
 File: Images & Logos/theme/CH_08_Dark_2.png Graphic file (type png)
 <use Images & Logos/theme/CH_08_Dark_2.png>
 Package pdftex.def Info: Images & Logos/theme/CH_08_Dark_2.png  used on input l
 ine 107.
 (pdftex.def)             Requested size: 150.88008pt x 256.0748pt.
-<Images & Logos/theme/CH_08_Dark_3.png, id=128, 1762.585pt x 2991.175pt>
+<Images & Logos/theme/CH_08_Dark_3.png, id=134, 1762.585pt x 2991.175pt>
 File: Images & Logos/theme/CH_08_Dark_3.png Graphic file (type png)
 <use Images & Logos/theme/CH_08_Dark_3.png>
 Package pdftex.def Info: Images & Logos/theme/CH_08_Dark_3.png  used on input l
 ine 114.
 (pdftex.def)             Requested size: 150.88008pt x 256.0748pt.
-<Images & Logos/theme/CH_08_Dark_4.png, id=129, 1762.585pt x 2991.175pt>
+<Images & Logos/theme/CH_08_Dark_4.png, id=135, 1762.585pt x 2991.175pt>
 File: Images & Logos/theme/CH_08_Dark_4.png Graphic file (type png)
 <use Images & Logos/theme/CH_08_Dark_4.png>
 Package pdftex.def Info: Images & Logos/theme/CH_08_Dark_4.png  used on input l
@@ -1065,7 +1065,7 @@ ine 119.
 
 LaTeX Warning: Float too large for page by 12.9296pt on input line 123.
 
-<Images & Logos/theme/CH_08_Dark_5.png, id=130, 1762.585pt x 2991.175pt>
+<Images & Logos/theme/CH_08_Dark_5.png, id=136, 1762.585pt x 2991.175pt>
 File: Images & Logos/theme/CH_08_Dark_5.png Graphic file (type png)
 <use Images & Logos/theme/CH_08_Dark_5.png>
 Package pdftex.def Info: Images & Logos/theme/CH_08_Dark_5.png  used on input l
@@ -1074,10 +1074,26 @@ ine 127.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (Chapters/chapter10.tex [24 <./Images & Logos/theme/CH_08_Light_5.png>]
-[25 <./Images & Logos/theme/CH_08_Dark_1.png> <./Images & Logos/theme/CH_08_Dar
-k_2.png> <./Images & Logos/theme/CH_08_Dark_3.png> <./Images & Logos/theme/CH_0
-8_Dark_4.png>] [26 <./Images & Logos/theme/CH_08_Dark_5.png>]
+[24 <./Images & Logos/theme/CH_08_Light_5.png>] [25 <./Images & Logos/theme/CH_
+08_Dark_1.png> <./Images & Logos/theme/CH_08_Dark_2.png> <./Images & Logos/them
+e/CH_08_Dark_3.png> <./Images & Logos/theme/CH_08_Dark_4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+[26 <./Images & Logos/theme/CH_08_Dark_5.png>]
+<Images & Logos/theme/CH_08_database.jpeg, id=152, 1284.8pt x 483.8075pt>
+File: Images & Logos/theme/CH_08_database.jpeg Graphic file (type jpg)
+<use Images & Logos/theme/CH_08_database.jpeg>
+Package pdftex.def Info: Images & Logos/theme/CH_08_database.jpeg  used on inpu
+t line 146.
+(pdftex.def)             Requested size: 453.35277pt x 170.71652pt.
+
+Overfull \hbox (63.35277pt too wide) in paragraph at lines 146--148
+ [] 
+ []
+
+) (Chapters/chapter10.tex [27 <./Images & Logos/theme/CH_08_database.jpeg>]
 Chapter 9.
 
 Overfull \hbox (0.34818pt too wide) in paragraph at lines 2--3
@@ -1100,9 +1116,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--72
 
  []
 
-[27
+[28
 
-] [28]
+] [29]
 Chapter 10.
 
 Overfull \hbox (84.80235pt too wide) in paragraph at lines 93--95
@@ -1116,18 +1132,18 @@ Overfull \hbox (7.24254pt too wide) in paragraph at lines 96--98
 -lease notes , bugs,
  []
 
-[29
+[30
 
-] [30] (report.aux)
+] [31] (report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14536 strings out of 478681
- 254289 string characters out of 2846535
- 567208 words of memory out of 3000000
- 32309 multiletter control sequences out of 15000+600000
+ 14544 strings out of 478681
+ 254583 string characters out of 2846535
+ 568208 words of memory out of 3000000
+ 32315 multiletter control sequences out of 15000+600000
  413182 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,8n,76p,846b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1136,9 +1152,9 @@ yaf.enc}{C:/Users/dhond/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/play-font
 /a_n7ssx7.enc}<C:/Users/dhond/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 play-font/Play-Bold.pfb><C:/Users/dhond/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/play-font/Play-Regular.pfb>
-Output written on report.pdf (38 pages, 2666102 bytes).
+Output written on report.pdf (41 pages, 2708828 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
+ 185 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
-\contentsline {chapter}{List of Figures}{6}{}%
-\contentsline {chapter}{List of Tables}{7}{}%
+\contentsline {chapter}{List of Figures}{7}{}%
+\contentsline {chapter}{List of Tables}{9}{}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}History}{2}{}%
 \contentsline {chapter}{\numberline {2}Introduction to Dart}{4}{}%
@@ -20,8 +20,10 @@
 \contentsline {section}{\numberline {7.2}basic classes that are provided with flutter provider}{18}{}%
 \contentsline {chapter}{\numberline {8}Project}{19}{}%
 \contentsline {subsection}{\numberline {8.0.1}Login and Signup with Firestore Authentication}{20}{}%
-\contentsline {section}{\numberline {8.1}Two user friendly themes}{22}{}%
-\contentsline {subsection}{\numberline {8.1.1}Light Mode}{22}{}%
-\contentsline {subsection}{\numberline {8.1.2}Dark Mode}{24}{}%
-\contentsline {chapter}{\numberline {9}Conclusion}{27}{}%
-\contentsline {chapter}{\numberline {10}References}{29}{}%
+\contentsline {subsection}{\numberline {8.0.2}Two user friendly themes}{22}{}%
+\contentsline {subsection}{\numberline {8.0.3}Light Mode}{22}{}%
+\contentsline {subsection}{\numberline {8.0.4}Dark Mode}{24}{}%
+\contentsline {subsection}{\numberline {8.0.5}Minimalistic Design}{26}{}%
+\contentsline {subsection}{\numberline {8.0.6}Data Synchronsiation with firestore database}{27}{}%
+\contentsline {chapter}{\numberline {9}Conclusion}{28}{}%
+\contentsline {chapter}{\numberline {10}References}{30}{}%
