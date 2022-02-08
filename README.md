@@ -1,2 +1,3 @@
 # IT 3rd year notes
- Notes of IT 3rd year
+
+This repository contains practicals and assignments of Final year of IT.
