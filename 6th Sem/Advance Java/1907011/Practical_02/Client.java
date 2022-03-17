@@ -1,10 +1,9 @@
-
 import java.net.*;
 import java.io.*;
 import java.util.Vector;
 
 public class Client{
-  public static void main(String[] args) throws Exception{
+ public static void main(String[] args) throws Exception{
     DatagramSocket ds = new DatagramSocket();
 
 
@@ -30,7 +29,6 @@ public class Client{
     for(int i = 0;i < s.size()-1;i++){
       byte[] b = s.elementAt(i).getBytes();
       DatagramPacket dp = new DatagramPacket(b,b.length,inet,1234);
-      System.out.println(dp.getData());
       ds.send(dp);
     }
 
