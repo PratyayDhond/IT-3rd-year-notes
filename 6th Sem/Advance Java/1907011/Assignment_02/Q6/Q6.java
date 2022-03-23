@@ -55,7 +55,7 @@ public class Q6{
             //  5> Add 'Discharge Date' Column to patient table
             print();
             try{
-                stmt.executeUpdate("ALTER TABLE Q6_Student ADD COLUMN Discharge_Date DATE");
+                stmt.executeUpdate("ALTER TABLE Q6_Patient ADD COLUMN Discharge_Date DATE");
                 System.out.println("Column 'Discharge Date' Added Successfully");
             }catch (Exception e){
                 System.out.println("Column 'Discharge Date' Already Exists");
