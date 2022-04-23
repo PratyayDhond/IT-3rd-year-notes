@@ -1,4 +1,4 @@
-import java.io.Serializable;
+      import java.io.Serializable;
 
 public class Bean implements Serializable{
     private String name;
