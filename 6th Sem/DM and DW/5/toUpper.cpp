@@ -21,12 +21,12 @@ int main(){
 	cout<<"Enter last name: ";
 	cin>>lastName;
 	
-	cout<<"User Input: \n";
+	cout<<"\nUser Input: \n";
 	cout<<firstName<<" "<<lastName<<endl;
 	firstName = upper(firstName);
 	lastName = upper(lastName);
 	cout<<"\nData cleansing by applying uppercase: \n";
-	cout<<firstName<<" "<<lastName;
+	cout<<firstName<<" "<<lastName<<"\n";
 	
 	return 0;
 }
