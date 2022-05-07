@@ -1,4 +1,4 @@
-import java.rmi.*;
+ import java.rmi.*;
 import java.rmi.server.*;
 
 public class AddServerImpl extends UnicastRemoteObject implements AddServerIntf{
