@@ -10,7 +10,7 @@ import javax.swing.*;
 </html>
  */
 
-public class Main extends JApplet{
+public class PR11 extends JApplet{
     JComboBox jComboBox;
     JLabel label1,label2,label3,label4,label5;
     JTextField textField;
