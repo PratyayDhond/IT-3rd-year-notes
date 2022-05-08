@@ -5,7 +5,7 @@ import javax.swing.*;
 /*
  <html>
 <body>
-<applet code="Main.class" width=750 height=250></applet>
+<applet code="PR11.class" width=750 height=250></applet>
 </body>
 </html>
  */
