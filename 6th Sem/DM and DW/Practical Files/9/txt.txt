@@ -1,0 +1,5 @@
+1. Open Dataset in Weka
+2. Remove Unnecessary value
+3. Go to associate window
+4. Select Apriori Algorithm
+5. Press Start

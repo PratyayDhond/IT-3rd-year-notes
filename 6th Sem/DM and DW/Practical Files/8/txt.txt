@@ -1,0 +1,6 @@
+1. open weka
+2. Import data set
+3. Go to Cluster tab
+4. Select 'SimpleKMeans' as the Clusterer
+5. Press Start
+6. Visualize by right clicking

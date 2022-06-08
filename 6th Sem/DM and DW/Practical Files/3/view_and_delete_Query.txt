@@ -1,0 +1,8 @@
+GO
+USE Practical3;
+GO
+
+SELECT * FROM REV;
+GO
+
+DROP TABLE REV;

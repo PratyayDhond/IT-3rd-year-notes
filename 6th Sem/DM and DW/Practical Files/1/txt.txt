@@ -1,0 +1,5 @@
+1.Open SQL Management Studio
+2. Import SQL script into Management studio
+3. Execute the query
+4. Reload Database
+5. Databases -> SalesDB -> Database Diagram-> New

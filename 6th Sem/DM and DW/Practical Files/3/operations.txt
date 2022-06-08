@@ -1,0 +1,31 @@
+USE Practical3;
+
+-- SELECT * FROM REV
+
+-- CREATION OF CUBE
+-- SELECT quarter,region,SUM(sales)from REV group by cube(quarter,region);
+
+-- ROLL UP
+-- SELECT quarter,region,SUM(sales)from REV group by rollup (quarter,region);
+
+-- ROLL DOWN / DRILL DOWN
+-- SELECT quarter, region, sales FROM REV WHERE quarter = 'Q1' ORDER BY region;
+
+-- SLICE
+-- SELECT product, SUM(sales) FROM REV WHERE PRODUCT= 'A' GROUP BY product;
+
+-- DICE
+-- SELECT product, SUM(sales) FROM REV WHERE PRODUCT='B' AND region='EUROPE' GROUP BY product;
+
+-- PIVOT
+/* SELECT 'sales' AS TotalsaleByProduct, 
+[A], [B]
+FROM
+(SELECT product, sales
+ FROM REV) AS SourceTable
+PIVOT
+(
+ SUM(sales)
+ FOR product IN ([A], [B])
+) AS PivotTable;
+*/
