@@ -11,10 +11,6 @@ public class PR13 extends HttpServlet{
 		email = req.getParameter("email");
 		password = req.getParameter("password");
 		
-		doPost( req,res);
-	}
-	
-	public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		PrintWriter pw = res.getWriter();
 		pw.println("<h1> email    : " + this.email + "</h1>");
 		pw.println("<h1> Password : " + this.password + "</h1>" );
